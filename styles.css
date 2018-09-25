@@ -1,25 +1,33 @@
 * {
+	margin-top:0;
 	box-sizing: border-box;
 }
 
 html, body {
 	margin: 0;
+	min-width: 500px;
 }
 
 header, footer {
-
+	margin-top:0;
+	height: 25vh;
+	background-color:purple;
+	color:white;
 }
 
 .centered {
-
+	padding-top: 4vh;
+	padding-left: 20vw;
+	padding-right: 26vw;
 }
 
 header .subtitle {
-
+ 	font-size: 15px;
 }
 
 h1 {
-
+	text-transform: uppercase;
+	font-size: 50px;
 }
 
 ul {
@@ -32,31 +40,49 @@ ul li {
 }
 
 main {
+	margin-top: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
 
+article, footer p, section:last-child p, section:last-child ul {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 10px;
 }
 
 section {
-
+	padding-bottom: 5%;
 }
 
 h2 {
+	color:purple;
+	border-bottom:solid purple 1px;
+	padding-bottom: 20px;		
 
 }
 
 h3 {
-
+	color:purple;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
-p {
+p, ul {
+	font-size:13.5px;
 
 }
 
 .details {
-
+	color:purple;
+	padding: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
 .object {
-
+	 font-weight: bold;
+	color:purple;
 }
 
 .object:after {
@@ -64,5 +90,5 @@ p {
 }
 
 footer h2 {
-
+	color:white;
 }
